@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
             {
                 j = rand.Next(0, temp.Length);
                 res += temp[j] + ", ";
-                for(int i = j; i < temp.Length - 2; i++)
+                for(int i = j; i < temp.Length - 1; i++)
                 {
                     temp[i] = temp[i + 1];
                 }
